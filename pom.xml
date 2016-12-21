@@ -10,7 +10,6 @@
     <url>https://github.com/miginmrs/jnodes</url>
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <java.main.class>${project.groupId}.Main</java.main.class>
         <java.user.name>Miginmrs</java.user.name>
     </properties>
     <licenses>
@@ -31,7 +30,6 @@
                 <configuration>
                     <archive>
                         <manifest>
-                            <mainClass>${java.main.class}</mainClass>
                             <addDefaultImplementationEntries>false</addDefaultImplementationEntries>
                         </manifest>
                         <manifestEntries>
